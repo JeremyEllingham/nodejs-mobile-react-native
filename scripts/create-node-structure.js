@@ -52,7 +52,7 @@ function installFiles(done) {
   // })
   // source = path.join(fileInstallingPackagePath, 'node_modules', installTargetPackageName, 'install','resources','nodejs-assets');
   // target = fileInstallingPackagePath;
-  target = "/Users/jeremy/project/selene-wallet/";
+  target = "/Users/jeremy/project/selene-wallet";
 
   // if (!target) {
   //   var error2 = new Error('Could not determine the install destination directory.');
