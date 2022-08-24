@@ -41,7 +41,8 @@ function installFiles(done) {
   var fileInstallingPackagePath = hostPackageDir(scriptPath);
   
   // The target package responsible for the 'install' or 'postinstall' event
-  var installTargetPackageName = process.env.npm_package_name;
+  // Hardcode so package can be installed directly from Github
+  var installTargetPackageName = 'nodejs-mobile-react-native' // process.env.npm_package_name;
   
   var source, target;
 
